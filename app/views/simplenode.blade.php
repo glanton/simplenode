@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>simplenode</title>
-    <script type="text/javascript" src="//cdn.socket.io/socket.io-1.0.0.js"></script>
+    <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script type="text/javascript" src='{{ asset('scripts/client.js') }}'></script>
 </head>
 <body>
