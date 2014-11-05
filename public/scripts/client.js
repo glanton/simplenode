@@ -1,6 +1,6 @@
 window.onload = function(){
 
-    var socket = io.connect('http://localhost:8333');
+    var socket = io.connect('http://localhost:3000');
 
     var submitNumber = document.getElementById('submitNumber');
     var getAnswer = document.getElementById('getAnswer');

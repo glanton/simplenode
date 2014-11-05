@@ -8,7 +8,7 @@ var server = http.createServer(function(request, response){
    response.end();
 });
 
-server.listen(8333);
+server.listen(3000);
 var ioServer = io.listen(server);
 
 var answer = 0;
