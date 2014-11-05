@@ -10,7 +10,7 @@ var server = http.createServer(function(request, response){
    response.end();
 });
 
-server.listen(8734, 'localhost');
+server.listen(8734);
 console.log('listening on port 8734');
 var ioServer = io.listen(server);
 
