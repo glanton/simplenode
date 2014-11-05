@@ -13,6 +13,6 @@
 
 Route::get('/', function()
 {
-	return View::make('simplenode');
-	//return View::make('hello');
+	//return View::make('simplenode');
+	return View::make('hello');
 });
